@@ -1,0 +1,54 @@
+/* iCyss framework | Author: iCy | version: 1.0 */
+
+.i-container {
+  padding: 0 20%;
+}
+.i-text-center {
+  text-align: center;
+}
+
+/* Colors */
+.i-bg-primary {
+  background-color: #135caa;
+}
+
+.i-bg-secondary {
+  background-color: #b7c6e1;
+}
+.i-bg-light {
+  background-color: #f3f3f3;
+}
+.i-bg-dark {
+  background-color: #0c121d;
+}
+/* Colors: text */
+.i-text-light {
+  color: #f3f3f3;
+}
+.i-text-dark {
+  color: #0c121d;
+}
+
+/* Table */
+
+.i-table,
+th,
+td {
+  border-bottom: 1px solid;
+  width: 100%;
+  color: white;
+}
+/* 
+Stripes
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+
+} */
+th {
+  color: black;
+  font-weight: 1000;
+  font-size: 25px;
+}
+td {
+  padding: 1%;
+}

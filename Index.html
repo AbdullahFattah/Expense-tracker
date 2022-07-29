@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icyss.css" />
+    <title>Document</title>
+  </head>
+  <body class="i-bg-primary">
+    <div class="i-container">
+      <h1 class="i-text-center i-text-light">Expense tracker</h1>
+      <div class="inputs">
+        <input type="text" id="input-item" placeholder="Enter item here" />
+        <input
+          type="number"
+          id="input-amount"
+          placeholder="Enter amount here"
+        />
+        <input type="button" value="Add" id="add-button" />
+      </div>
+      <table class="i-table">
+        <th>Item</th>
+        <th>Amount</th>
+        <th>Date</th>
+      </table>
+      <span class="total"></span>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,24 @@
+.inputs {
+  text-align: center;
+}
+#input-item {
+  width: calc(30%);
+  padding: 1%;
+  height: 35px;
+}
+#input-amount {
+  width: calc(30%);
+  padding: 1%;
+  height: 35px;
+}
+#add-button {
+  padding: 2%;
+}
+.total {
+  font-weight: 1000;
+  color: orange;
+  border: none;
+}
+.no-border {
+  border: none;
+}
